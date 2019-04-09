@@ -1,0 +1,27 @@
+input {font-weight:bold;}
+input[type="text"], textarea {
+
+background-color : #d1d1d1; 
+
+}
+
+input, select, textarea{
+ color: #000080;
+}
+
+textarea:focus, input:focus {
+ color: #000080;
+}
+
+.buttonCss {
+ background-color: #008000;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}

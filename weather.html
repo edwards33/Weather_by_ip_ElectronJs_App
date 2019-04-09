@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather by ip</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h2>Find Weather by your IP address</h2>
+            <p>To find your temperature, click the button below.</p>
+            <button class="buttonCss" id="showTemp" onclick="findWeather()">Find Weather</button>
+        </div>
+        <div id="outputTemp" hidden="true">
+            <form>
+                <br><br>
+                Temperature (Degrees in celsius):<br>
+                <input type="text" id="Temperature" style='color:#BGGF00'>
+                <br>
+                Temperature in Fahreinheight:<br>
+                <input type="text" id="fahreinheight">
+                <br>
+                Wind Speed:<br>
+                <input type="text" id="Windspeed">
+                <br>
+                Maximum Temperature:<br>
+                <input type="text" id="temp_max">
+                <br>
+                Minimum Temperature:<br>
+                <input type="text" id="temp_min">
+                <br>
+                Description:<br>
+                <input type="text" id="description">
+                <br>
+                Humidity:<br>
+                <input type="text" id="humidity">
+                <br>
+                Area Name:<br>
+                <input type="text" id="name">
+                <br>
+                Pressure:<br>
+                <input type="text" id="Pressure">
+                <br>
+                <br>
+                IP:<br>
+                <input type="text" id="ip">
+                <br><br>
+            </form>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+</html>
